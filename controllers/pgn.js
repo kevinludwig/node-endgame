@@ -26,6 +26,6 @@ module.exports = function(req, res) {
     var fen = req.path.substring(5);
 
     buildFenMap(function(err, map) {
-        res.type('text/plain').sendFile(map[fen], options);
+        res.type('text/plain').sendFile(map[fen]);
     });
 };
