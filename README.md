@@ -8,8 +8,12 @@ Play through chess endgames
 * Run tests `npm test`
 * Start `npm start`
 
-# Remaining Work (1.0)
+# TODO
 
+- detail page
+- menus
+- list result page (click from menu)
+- home page with list format and curated content
 - content
     - bishop vs knight +
     - rook vs pawns +
