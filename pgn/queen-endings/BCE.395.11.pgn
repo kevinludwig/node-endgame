@@ -1,0 +1,10 @@
+[FEN "8/p7/7K/8/3Q4/8/2p5/1k6 w - - 1 1"]
+[Result "1/2-1/2"]
+
+1. Qb4+ Kc1 $1 (1. ...Ka2 2. Qc3 Kb1 3. Qb3+ Kc1 4. Kg5 a5 5. Kf4 a4 6. Qb4 a3 7. Ke3 a2 8. Qc3 Kb1 9. Kd2 {wins}) 
+2. Kg5 a5
+3. Qb6 Kd2 
+4. Qd4+ Kc1 
+5. Qa1+ (5. Kf4 Kb1 6. Qd3 Kb2 7. Qb5+ Ka2 8. Qa4+ Kb2 $10) Kd2
+6. Qb2 (6. Qxa5+ Kd1 7. Qa4 Kd2 8. Qd4+ Kc1 9. Kf4 Kb1 10. Qd3 Kb2 11. Qd2 Kb1 12. Qd3 Ka1 $10) Kd1 $10
+1/2-1/2

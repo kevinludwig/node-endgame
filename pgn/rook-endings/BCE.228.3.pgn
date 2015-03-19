@@ -1,0 +1,12 @@
+[FEN "4K3/4P1k1/8/8/8/8/3r4/5R2 w - - 1 1"]
+[Result "1-0"]
+
+{The very famous Lucena position. The fundamental position for winning pawn ahead rook endings.}
+1. Rg1+ Kh7 (1. ...Kf6 Kf8)
+2. Rg4 $1 {building a bridge.} (2. Kf7 Rf2+ 3. Ke6 Re2+ 4. Kf6 Rf2+ 5. Ke5 Re2+ 6. Kd6 Rd2+ 7. Kc5 Re2 8. Kd6 Rd2+ {and white has not made any progress}) Rd1
+3. Kf7 Rf1+ 
+4. Ke6 Re1+
+5. Kf6 Rf1+
+6. Ke5 Re1+
+7. Re4 {and the pawn will queen.}
+1-0

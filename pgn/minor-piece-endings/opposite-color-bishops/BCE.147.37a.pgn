@@ -1,0 +1,10 @@
+[FEN "8/2k1b3/2P5/3KPB2/8/8/8/8 w - - 1 1"]
+[Tag "opposite-color-bishops"]
+[Result "1/2-1/2"]
+
+{Salvioli 1887. The black king can defend from d8.}
+1. Ke6 Bb4
+2. Be4 Kd8
+3. Kf7 Ba3 
+4. e6 Bb4 $10
+1/2-1/2

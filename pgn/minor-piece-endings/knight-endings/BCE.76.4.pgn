@@ -1,0 +1,14 @@
+[FEN "8/3PKnk1/8/8/8/8/8/7N w - - 1 1"]
+[Result "1-0"]
+
+{Cheron 1955}
+1. Ke6 (1. Ng3 $2 Ne5 $10) Nd8+
+2. Kd6 Kf6 (2. ...Kf7 3. Kc7 Ke7 4. Nf2 Ne6+ 5. Kc8 Nd8 6. Nd3 Nb7 7. Kc7 Nd8 8. Ne5)
+3. Nf2 Nb7+
+4. Kc7 Ke7
+5. Nd3 Nd8 (5. ...Ke6 6. Nc5+)
+6. Ne5 Ne6+
+7. Kc8 Kd6
+8. Ng6 Kc6 
+9. Nf4
+1-0

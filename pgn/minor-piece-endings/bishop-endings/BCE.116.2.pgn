@@ -1,0 +1,6 @@
+[FEN "1k6/8/1K6/P7/3B4/8/8/8 w - - 1 1"]
+[Result "1/2-1/2"]
+
+{The bishop is the wrong color so the black king can't be forced out of the corner.}
+1. a6 Ka8
+

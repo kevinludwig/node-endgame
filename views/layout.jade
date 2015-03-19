@@ -1,0 +1,33 @@
+doctype html
+html(lang='en')
+    head
+        title=title
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        script(src='/js/jquery-1.11.2.min.js')
+        script(src='/js/bootstrap.min.js')
+        script(src='/js/pgn4web.js')
+        script(src='/js/chess-informant-NAG-symbols.js')
+        script(src='/js/app.js')
+        link(rel='stylesheet', type='text/css', href='/css/bootstrap.min.css')
+        link(rel='stylesheet', type='text/css', href='/css/bootstrap-theme.min.css')
+        link(rel='stylesheet', type='text/css', href='/css/pgn4web-font-LiberationSans.css')
+        link(rel='stylesheet', type='text/css', href='/css/pgn4web-font-ChessSansPiratf.css')
+        link(rel='stylesheet', type='text/css', href='/css/app.css')
+    body
+        nav.navbar.navbar-default.navbar-static-top(role='navigation')
+            .container
+                .navbar-header
+                    .row: a.navbar-brand(href='/') Rook &amp; Pawn
+                    .row: .text-muted Endgames made easy
+
+        #content.container-fluid
+            block content
+
+        footer.navbar.navbar-default.navbar-fixed-bottom
+            .container
+                .row.text-muted.text-center
+                    p
+                        span chess viewer courtesy of
+                        a(href="http://pgn4web.casaschi.net", target="_blank") pgn4web
+                    strong= "|"
+                    p Kevin Ludwig &copy; 2015, All rights reserved.

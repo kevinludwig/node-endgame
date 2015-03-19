@@ -1,0 +1,6 @@
+[FEN "8/8/8/3K4/8/8/2p1Q3/1k6 w - - 1 1"]
+[Result "1-0"]
+
+1. Kc4 c1=Q+
+2. Kb3 {and checkmate can not be avoided}
+1-0

@@ -1,0 +1,11 @@
+[FEN "2n5/2pK4/8/4K3/2R5/8/8/8 w - - 1 1"]
+[Result "1/2-1/2"]
+
+{Analysis by Averbakh.}
+1. Rc5 Ne7 $1 (1. ...Nb6 2. Kd4 Kc8 (2. ...Nc8 3. Kc4 Kd6 4. Kb5 Kd7 5. Ka6 Kd6 6. Kb7) 3. Rc6 Nd7 4. Kd5 Nf8 5. Kd6) 
+2. Ke4 Nc8 
+3. Kd5 Ne7+ 
+4. Kc4 Kc8 $1
+5. Kb5 Kb7 $1 
+6. Re5 Nc8 $10 {White's king can't get to the pawn.}
+1/2-1/2

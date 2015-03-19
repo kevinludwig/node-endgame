@@ -1,0 +1,12 @@
+[FEN "4k3/R7/8/3KP3/8/8/8/7r b - - 1 1"]
+[Result "1/2-1/2"]
+
+{When the king is blocking the pawn, Philidor laid out the drawing method: The black rook occupies the 
+third rank, preventing the white king's advance. When the pawn moves to the sixth rank, Black's rook
+moves to the first rank, and white faces perpetual checks or the loss of the pawn.}
+1. ...Rh6 $1
+2. Rb7 (Ra8+ Ke7) Rg6
+3. e6 (3. Rc7 Rh6 4. Rc6 Rxc6 4. Kxc6 Ke7 $10) Rg1 $1
+4. Kd6 Rd1+
+5. Ke5 Re1+ $10
+1/2-1/2

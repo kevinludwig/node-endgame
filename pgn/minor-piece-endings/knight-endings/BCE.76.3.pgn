@@ -1,0 +1,10 @@
+[FEN "8/2KP1n2/2N2k2/8/8/8/8/8 w - - 1 1"]
+[Result "1-0"]
+
+{Cheron 1926}
+1. Na5 Kf5
+2. Nc4 Ng5
+3. Nd6+ Ke5
+4. Kc8 Ne6
+5. Ne8 {with Nc7 to follow}
+1-0

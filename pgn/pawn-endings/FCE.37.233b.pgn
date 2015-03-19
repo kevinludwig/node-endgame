@@ -1,0 +1,17 @@
+[FEN "8/2k5/1p6/p1p2K2/P1P5/8/1P6/8 b - - 1 1"]
+[Result "1/2-1/2"]
+[White "H.Rasmussen"]
+[Black "O.Buch"]
+[Site "Lyngby"]
+[Date "1974.??.??"]
+
+{Black draws by going after the c-pawn}
+1. ...Kd6 (1. ...Kd7 $2 2. Kf6 Kd6 3. b3 Kd7 4. Kf7 Kd6 5. Ke8 Ke5 6. Kd7 Kd4 7. Kc6 Kc3 8. Kxb6 Kxb3 9. Kb5 $1 {wins})
+2. Kf6 Kd7 
+3. Kf7 Kd6
+4. Ke8 Ke5 
+5. Kd7 Kd4 
+6. Kc6 Kxc4 
+7. Kxb6 Kb4
+8. b3 $10
+1/2-1/2

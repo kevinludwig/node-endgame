@@ -1,0 +1,18 @@
+[FEN "8/8/8/8/4k3/8/R7/K7 w - - 1 1"]
+[Result "1-0"]
+
+1. Ra3 Kd4
+2. Kb2 Kc4
+3. Kc2 Kd5
+4. Kd3 Ke5
+5. Ra5+ Kf4
+6. Rb5 Kg4
+7. Ke3 Kg3
+8. Rg5+ Kh4
+9. Kf4 Kh3
+10. Rg4 Kh2
+11. Rg3 Kh1
+12. Kf3 Kh2
+13. Kf2 Kh1
+14. Rh3#
+1-0

@@ -1,0 +1,17 @@
+[FEN "1r6/R3K1k1/4P3/8/8/8/8/8 w - - 1 1"]
+[Result "1-0"]
+
+1. ...Kg6 (1. ...Rc8 2. Ra1 Rc7+ 3. Kd6 {and white will play e7 next})
+(1. ...Rb1 2. Ra8 $1 Rb7+ 3. Kd6 Rb6+ 4. Kd7 Rb7+ 5. Kc6 Re7 6. Kd6)
+(1. ...Kg8 2. Kf6 Rf8+ 3. Rf7 Ra8 4. Rg7+ Kh8 (4. ...Kf8 5. e7) 5. Rg1 {and white will reach the <a href="/g/detail/4K3-4P1k1-8-8-8-8-3r4-5R2">lucena position</a>})
+2. Ra1 $1 Rb7+
+3. Kd6 Rb7+
+4. Kd7 Rb7+
+5. Kc6 Rb2 (5. ...Re7 6. Kd6) (5. ...Rb8 6. Kc7 Rb2 7. Re1 $1)
+6. Re1 $1 Rb8 
+7. Kd7 $1 Rb7+
+8. Kc8 Re7
+9. Kd8 Kf6 
+10. Rf1+ Kxe6 
+11. Re1+
+1-0

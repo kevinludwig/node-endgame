@@ -1,0 +1,11 @@
+[FEN "8/3n4/2kp4/6R1/2PK4/8/8/8 w - - 1 1"]
+[Result "1/2-1/2"]
+
+{Averbakh}
+1. Ra5 Nc5
+2. Ra3 (2. Rxc5 dxc5+ 3. Ke5 Kc7 4. Kd5 Kb6 5. Kd6 Kb7 6. Kxc5 Kc7 $10) Ne6+
+3. Kc3 Nc5
+4. Kb4 Kb6
+5. Ra8 Nd3+
+6. Kc3 Nc5
+7. Kd4 Kc6 $10

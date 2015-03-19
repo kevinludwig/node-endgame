@@ -1,0 +1,15 @@
+[FEN "8/5K2/7k/4RP2/8/8/8/5r2 b - - 1 1"]
+[Result "1/2-1/2"]
+
+1. ...Ra1
+2. Re6+ Kh7 
+3. f6 Ra8 ({Black needs to avoid the discovered check in this line} 3. ...Ra7 $2 4. Kf8 Kg6 5. f7)
+4. Re8 (4. Re1 Ra7+ 5. Kf8 Kg6) (4. Ke7 Kg6 5. f7+ Kg7 6. Rf6 Ra7+ 7. Ke8 Ra8+) Ra7+
+5. Re7 (5. Kf8 Kg6) Ra8
+6. Rd7 Rb8
+7. Rd1 Rb7+
+8. Ke8 Kg6
+9. f7 Rb8+
+10. Ke7 Rb7+
+11. Ke6 Rb6+
+1/2-1/2

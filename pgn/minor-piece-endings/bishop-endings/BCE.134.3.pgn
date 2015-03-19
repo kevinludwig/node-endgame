@@ -1,0 +1,13 @@
+[FEN "4k3/8/3PK3/8/3B3b/8/8/8 b - - 1 1"]
+[Result "1/2-1/2"]
+
+{Averbakh, 1954.}
+1. ...Kf8 $1 (1. ...Kd8 $2 2. d7) (1. ...Bd8 $2 2. Bg7 $1 Bg5 3. d7+ Kd8 4. Bd4 Kc7 5. Bc5 Bd8 6. Be7)
+2. d7 Bd8 
+3. Bf6 Ba5 
+4. Bh4 Bb6 
+5. Kd6 Kf7 
+6. Kc6 Ba5 
+7. Kb7 Ke6 
+8. Kc8 Kd5 
+9. Bg3 Kc6 $10

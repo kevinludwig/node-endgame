@@ -1,0 +1,12 @@
+[FEN "8/8/1KP5/3r4/8/8/8/k7 w - - 1 1"]
+[Result "1-0"]
+
+{Saavedra, 1895. A unique position, where the black rook can not stop the promotion of the pawn.}
+1. c7 Rd6+
+2. Kb5 (2. Kb7 $2 Rd7 $1 $10)(2. Kc5 $2 Rd1 $1 $10) Rd5+
+3. Kb4 (3. Kc4 $2 Rd1 $1 $10) Rd4+
+4. Kb3 Rd3+
+5. Kc2 Rd4 $1
+6. c8=R $3 (6. c8=Q $2 Rc4+ $1 7. Qxc4 {is stalemate}) Ra4
+7. Kb3 
+1-0

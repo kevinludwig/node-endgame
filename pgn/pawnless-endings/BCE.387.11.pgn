@@ -1,0 +1,14 @@
+[FEN "3k4/2r5/2B4R/3K4/8/8/8/8 w - - 1 1"]
+[Result "1/2-1/2"]
+
+{The second rank defense: black defends with a stalemate trick.}
+1. Kd6 Rd7+
+2. Ke6 Re7+
+3. Kd6 Rd7+
+4. Kc5 Rg7 (4. ...Rc7 $4 5. Rh8+ Ke7 6. Kb6) (4. ...Re7 5. Kb6 Rg7 6. Re6 Rg8 {is playable, not is no longer a second rank defense})
+5. Re6 Re7
+6. Rd6+ Kc7 
+7. Rh6 Re5+
+8. Bd5 Re7
+9. Ra6 Kd8
+10. Ra8+ Kc7 $10

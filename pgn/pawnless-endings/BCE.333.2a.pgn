@@ -1,0 +1,13 @@
+[FEN "7R/kn6/2K5/8/8/8/8/8 b - - 1 1"]
+[Result "1-0"]
+
+{Arabic Manuscript, 1257. Analysis by Frink and Averbakh.}
+1. ...Na5
+2. Kb5 Nb7 (2. ...Nb3 3. Rd8 {loses the knight})
+3. Rh5 Kb8 (3. ...Nd6+ 4. Kc6 Nc4 (4. ...Ne4 5. Rh7+ Kb8 6. Rb7+ Ka8 7. Rb4 Nf6 8. Rf4 Nh5 9. Rf5 Ng3 10. Rf3 Nh5 11. Kc7) 5. Rc5 Ne3 6. Ra5+ Kb8 7. Ra4 Nf5 8. Re4 Ng3 9. Rb4+ Ka7 10. Rb7+ Ka8 11. Kc7) (3. ...Nd8 4. Rd5 Ne6 5. Kc6 Kb8 6. Rd6 $1 Ng5 7. Rd8+ Ka7 8. Rd7+ Ka6 9. Rd3 Ka7 10. Re3 Kb8 11. Kd7 Nf7 12. Ke7 Nh6 13. Ke6 Ng4 14. Re2 Kc7 15. Nf5 Nh6+ 16. Kg6 Ng4 17. Kg5)
+4. Kc6 Nd8+ 
+5. Kd7 Nb7
+6. Rb5 Ka7
+7. Kc7 Ka8
+8. Rb3
+1-0

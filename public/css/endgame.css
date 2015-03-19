@@ -1,0 +1,160 @@
+.navbar {
+    margin-bottom:0;
+}
+
+.content {
+    padding-top:30px;
+    padding-bottom:20px;
+    background-image:url('/img/fancy_deboss.png');
+}
+
+footer {
+    padding-top:5px;
+    padding-bottom:15px;
+    background-color:rgb(250,250,250);
+    
+    /* cross browser linear gradient hack */
+    background-image:-webkit-gradient(linear,center top, center bottom,from(#f2f2f2),to(#f2f2f2));
+    background-image:-moz-linear-gradient(center top, rgb(242,242,242),rgb(255,255,255));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2',endColorstr='#ffffff');
+
+    background-repeat:repeat-x;
+}
+footer img {
+    width:20px;
+	height:20px;
+}
+
+#search {
+    margin-right: 10px;
+}
+
+/* figurine movetext */
+body {
+    font-family: 'pgn4web Liberation Sans', sans-serif;
+}
+
+.move, .variation, .commentMove {
+    font-family: 'pgn4web ChessSansPiratf', 'pgn4web Liberation Sans', sans-serif;
+}
+
+.whiteSquare, .highlightWhiteSquare {
+    background-color:#dcdcdc;
+}
+.blackSquare, .highlightBlackSquare {
+    background-color:#708090;
+}
+
+#game-board-nav {
+    padding-left:20px;
+    margin-bottom:0;
+    background:transparent;
+}
+#game-text-container {
+    background-color:rgba(224,224,224,0.4); 
+
+    -moz-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.5);    
+    
+    /* cross browser rounded corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+
+    /* cross browser background clip */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+
+    border: 1px solid rgba(0,0,0,0.25);
+
+    padding-top:15px;
+    padding-bottom:35px;
+}
+.tags {
+    margin-top:10px;
+}
+.tags a {
+    margin-right:4px;
+}
+
+#GameText {
+    text-decoration:none;
+    text-align:justify;
+}
+#GameText .move {
+    color: #696969;
+}
+#custom-game-buttons {
+    margin-top:5px;
+}
+#startButton {
+    margin-left:0px;
+}
+#backButton,#autoplayButton,#forwardButton,#endButton {
+    margin-left:5px;
+}
+
+/* search result styling: width/height depends on which .span* is used */
+.result {
+    height:190px;
+    width:190px;
+}
+.result img, .result td {
+    width:24.25px;
+    min-width:24.25px;
+    height:24.25px;
+}
+
+/* index page carousel */
+#carousel-wrapper {
+    width:100%;
+}
+.carousel {
+    margin-bottom:60px;
+}
+.carousel-inner .item {
+    height:500px;
+    background:#444444;
+}
+.carousel-caption {
+    background-color:transparent;
+    position:static;
+    margin-top:100px;
+    max-width:785px;
+    text-shadow:0px 1px 1px rgba(0,0,0,0.4);
+    color:white;
+
+}
+.carousel-caption .result {
+    height:285px;
+    width:285px;
+    margin-right:20px;
+}
+.carousel-caption .result img, .carousel-caption .result td {
+    width:36.25px;
+    min-width:36.25px;
+    height:36.25px;
+}
+.carousel-caption p {
+    padding-bottom:10px;
+}
+.carousel-control {
+    height:80px;
+	margin-top:0px;
+	font-size:120px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+	background-color:transparent;
+	border: 0;
+	z-index:10;
+}
+section .marketing {
+    color:#5a5a5a;
+    text-align:center;
+    font-weight:normal;
+}
+section .marketing p {
+    margin-right:10px;
+    margin-left:10px;
+}

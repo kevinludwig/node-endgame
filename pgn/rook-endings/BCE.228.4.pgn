@@ -1,0 +1,11 @@
+[FEN "4K3/4P1k1/8/8/8/8/r7/5R2 b - - 1 1"]
+[Result "1/2-1/2"]
+
+{The Lucena position, with the black rook well placed. Here black can draw with flank checks.}
+1. ...Ra8+
+2. Kd7 Ra7+
+3. Kd6 Ra6+
+4. Kd5 Ra5+
+5. Kc6 Ra6+
+6. Kb7 Re6 $10
+1/2-1/2

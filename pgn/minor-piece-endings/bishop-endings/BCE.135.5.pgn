@@ -1,0 +1,10 @@
+[FEN "4K3/5P2/3bk2B/8/8/8/8/8 w - - 1 1"]
+[Result "1/2-1/2"]
+[Tag "centurini"]
+
+{Centurini 1856. The first exception to Centurini's rule.}
+1. Bf8 Be5
+2. Bc5 Bg7 
+3. Be3 Kd6 
+4. Bd4 Bh6 $10
+1/2-1/2

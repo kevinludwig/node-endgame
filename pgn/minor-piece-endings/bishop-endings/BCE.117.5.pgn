@@ -1,0 +1,16 @@
+[FEN "8/8/k1K5/8/pB6/P7/8/8 w - - 1 1"]
+[Result "1-0"]
+
+{Rauzer, 1928}
+1. Bc5 Ka5
+2. Kb7 Kb5 
+3. Bb6 Kc4
+4. Kc6 Kb3 (4. ...Kd3 5. Kb5 Ke4 6. Kxa4 Kd5 7. Kb5 Kd6 8. Ka6 Kc6 9. a4 Kd7 10. Kb7)
+5. Bc5 Kc4 
+6. Bd6 Kd4 
+7. Kb5 Kd5 
+8. Bh2 $1 Ke6 
+9. Kxa4 Kd7
+10. Kb5 Kc8 
+11. Kc6 
+1-0

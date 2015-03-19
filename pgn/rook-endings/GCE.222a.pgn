@@ -1,0 +1,13 @@
+[FEN "8/5K2/7k/4RP2/8/8/8/5r2 w - - 1 1"]
+[Result "1-0"]
+
+1. Re6+ (1. f6 $2 Rc1 2. Kf8 Kg6 3. f7 Kf6 $10) Kh7
+2. f6 Ra1 
+3. Kf8 (3. Ke8 $2 Ra8+ 4. Ke7 Kg6) (3. Re8 $2 Ra7+ 4. Kf8 Kg6) 
+3. ...Kg6 (3. ...Ra8+ 4. Re8 Ra1 5. f7 Ra7 6. Rd8)
+4. f7+ Kh7
+5. Rf6 Re1
+6. Rf2 Re3
+7. Rh2+ Kg6 
+8. Kg8
+1-0

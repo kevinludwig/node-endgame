@@ -1,0 +1,8 @@
+[FEN "4R3/8/8/8/8/4ppk1/8/4K3 w - - 1 1"]
+[Result "1-0"]
+
+1. Kf1 $1 (1. Rxf3 $2 Kg2 $1 $10) Kf4 (1. ...e2 2. Ke1 Kg2 3. Rg8+ Kh3 4. Kf2 Kh4 5. Ke8 Kg4 6. Rf8) 
+2. Re7 e2 (2. ...f2 3. Kg2) 
+3. Kf2 Kg4 
+4. Kf7
+1-0

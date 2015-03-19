@@ -1,0 +1,11 @@
+[FEN "8/8/8/8/8/4k3/3pp2Q/1K6 w - - 1 1"]
+[Result "1-0"]
+
+{Kling and Horwitz, 1851.}
+1. Qh6+ Kd3 
+2. Qd6+ Ke3 
+3. Qc5+ Kd3 
+4. Qc2+ Ke3
+5. Qc3+ Kf2
+6. Qxd2 {and wins}
+1-0

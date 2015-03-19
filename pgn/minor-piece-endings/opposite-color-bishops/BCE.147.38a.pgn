@@ -1,0 +1,13 @@
+[FEN "8/2k1b3/2P5/3K1P1B/8/8/8/8 w - - 1 1"]
+[Result "1-0"]
+[Tag "opposite-color-bishops"]
+
+{Salvioli 1887. With the pawns split by two files, the black king can not defend against both.}
+1. Bf3 Kd8
+2. Ke6 Bb4 
+3. f6 Bc5 
+4. f7 Bb4
+5. Kf6 Bc3 
+6. Kg6 Bb4 
+7. Kg7 
+1-0

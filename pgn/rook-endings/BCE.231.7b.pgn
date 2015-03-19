@@ -1,0 +1,7 @@
+[FEN "4R3/2k5/4K3/4P3/8/8/8/4r3 b - - 1 1"]
+[Result "1/2-1/2"]
+
+{Black would prefer the king be on the short side of the pawn, so the rook can use the long side for checks. But here the king is on the long side, and with the move is <i>just</i> able to draw.}
+1. ...Rh1 $1
+2. Rf8 (2. Kf7 Rh7+ 3. Kg6 Rh1 $10) Re1 $1 (2. ...Rh6 $2 3. Ke7 Rh7+ 4. Rf7 Rh1 5. e6 {wins})
+3. Re8 Rh1 $1 $10

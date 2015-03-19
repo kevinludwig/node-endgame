@@ -1,0 +1,11 @@
+[FEN "8/8/1pp5/8/P1P5/5k2/8/5K2 w - - 1 1"]
+[Result "1-0"]
+[Tag "Cozio"]
+
+{Cozio 1766}
+1. c5 $1 bxc5 
+2. a5 c4
+3. a6 c3
+4. Ke1 $1 c2
+5. Kd2
+1-0

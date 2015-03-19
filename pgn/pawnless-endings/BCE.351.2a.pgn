@@ -1,0 +1,13 @@
+[FEN "6k1/5R2/6K1/8/3b4/8/8/8 b - - 1 1"]
+[Result "1-0"]
+
+{Horowitz and Kling, 1851.}
+1. ...Bg1 $1 
+2. Rf1 (2. Rd7 $2 Kf8 3. Kf6 Bb6 $4 $10 (3. ...Ke8 $2 4. Ke6 Kf8 5. Rf7+ Kg8 6. Kf6)) Bh2 
+3. Rf2 Bg3 
+4. Rg2 Be5 (4. ...Bh4 5. Kh5+) (4. ...Bd6 5. Rd2 Be7 6. Rc2) 
+5. Re2 (5. Kf5 $2 Bg7) Bd6 
+6. Re8+ Bf8 
+7. Ra8 Kh8
+8. Rxf8#
+1-0

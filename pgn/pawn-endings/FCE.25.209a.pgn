@@ -1,0 +1,16 @@
+[FEN "5k2/8/8/8/8/2P5/8/3K4 w - - 1 1"]
+[Result "1-0"]
+
+1. Kc2  Ke7
+2. Kb3  Kd6 
+3. Kb4  Kc6
+4. Kc4  Kd6 
+5. Kb5  Kc7
+6. Kc5  (6. c4 $4 Kb7 $1 7. Kc5 Kc7 $1 8. Kd5 Kd7 $1 9. c5 Kc7 $1 10. c6 Kc8 $10) Kd7
+7. Kb6 Kd6 
+8. c4 Kd7
+9. c5 Kc8
+10. Kc6 Kd8
+11. Kb7 Kd7
+12. c6+
+1-0

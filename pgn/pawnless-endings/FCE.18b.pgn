@@ -1,0 +1,8 @@
+[FEN "5k2/5N2/5K2/5B2/8/8/8/8 b - - 1 1"]
+[Result "1-0"]
+
+1. ...Ke8
+2. Be6 Kf8
+3. Bd7 Kg8
+4. Bf5 Kf8 {an identical position with white to move.}
+1-0

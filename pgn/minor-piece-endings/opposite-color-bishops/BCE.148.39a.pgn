@@ -1,0 +1,11 @@
+[FEN "8/2bB4/2P5/6k1/4K3/5P2/8/8 w - - 1 1"]
+[Result "1/2-1/2"]
+[Tag "opposite-color-bishops"]
+
+{Averbakh, 1950.}
+1. Kd5 Kf6 
+2. Kc5 Ke7
+3. Kb5 Kd8
+4. Ka6 Bf4
+5. Kb7 Bc7 $10
+1/2-1/2

@@ -1,0 +1,6 @@
+[FEN "8/2K5/3P4/1bk4B/8/8/8/8 w - - 1 1"]
+[Result "1/2-1/2"]
+[Tag "centurini"]
+
+{Centurini's Rule: With kings in opposition, black can draw so long as his bishop has two diagonals, each longer than three squares.}
+1. Bg4 Ba4 

@@ -1,0 +1,7 @@
+[FEN "6k1/8/6K1/6P1/8/8/8/8 w - - 1 1"]
+[Result "1-0"]
+
+1. Kh6 $1 (1. Kf6 $2 Kh7 2. g6 $4 Kh8 3. g7+ Kg8 4. Kg6 {stalemate}) Kh8
+2. g6 Kg8
+3. g7 {and wins}
+1-0

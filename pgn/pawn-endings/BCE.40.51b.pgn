@@ -1,0 +1,14 @@
+[FEN "8/ppp5/8/PPP5/8/6k1/8/6K1 b - - 1 1"]
+[Result "1/2-1/2"]
+
+1. ...b6 $1 (1. ...a6 $2 2. c6 $1) (1. ...c6 $2 2. a6 $1)
+2. axb6 axb6 
+3. cxb6 cxb6 
+4. Kf1 Kf3
+5. Ke1 Ke3 
+6. Kd1 Kd3
+7. Kc1 Kc3
+8. Kb1 Kb3
+9. Ka1 Kb4
+10. Kb2 Kxb5 
+11. Kb3 {white has the opposition and draws}

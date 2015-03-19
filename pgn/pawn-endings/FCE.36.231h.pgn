@@ -1,0 +1,9 @@
+[FEN "8/6k1/4K1Pp/7P/8/8/8/8 w - - 1 1"]
+[Result "1/2-1/2"]
+[Tag "fortress"]
+
+1. Ke7 Kg8
+2. Kf6 Kh8 
+3. g7+ Kg8
+4. Kg6 {stalemate}
+1/2-1/2

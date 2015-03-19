@@ -1,0 +1,8 @@
+[FEN "1b6/1k6/8/1PP5/2K5/8/2B5/8 b - - 1 1"]
+[Result "1-0"]
+[Tag "opposite-color-bishops"]
+
+1. ...Ba7 (1. ...Bc7 2. Be4+ Ka7 3. Kd5 Ba5 4. Kc6 Bd8 5. b6+)
+2. Be4+ Kc7
+3. Bf3 {zugzwang}
+1-0

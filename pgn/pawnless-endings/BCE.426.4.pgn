@@ -1,0 +1,25 @@
+[FEN "4k3/2Q5/6r1/4K3/8/8/8/8 w - - 1 1"]
+[Result "1-0"]
+
+1. Qc4 Kf8 
+(1. ...Ke7 2. Qh4+ Kf7 3. Qh7+ Rg7 4. Qf5+ Kg8 5. Ke6 Rb7 6. Qd5 $1 Rf7 7. Qd4 $1 Rb7 8. Kf6 Rg7 9. Qd8+ Kh7 10. Qe8)
+(1. ...Rh6 2. Qg8+ Ke7 3. Qg7+) 
+(1. ...Rb6 2. Qc8+ Ke7 3. Qc7+) 
+(1. ...Rg2 2. Qc6+) 
+(1. ...Rg1 2. Qa4+ Kd8 3. Qa8+ Kd7 4. Qa7+)
+2. Kf5 Kg7
+(2. ...Rd6 3. Qc5 Ke7 4. Ke5)
+(2. ...Rg1 3. Qc5+)
+(2. ...Rg2 3. Qc8+ 4. Ke7 Qb7+)
+(2. ...Rg3 3. Qc8+ 4. Ke7 Qc7+)
+(2. ...Rg7 3. Qf6)
+(2. ...Rh6 3. Qd4 Rh3 (3. ...Kf7 4. Qd7+ Kf8 5. Kg5 Rh8 6. Kg6 Rg8+ 7. Kf6) 4. Qg6 Rg3+ 5. Kf6 Rf3+ 6. Ke6 Rh3 7. Qf4+ Kg7 8. Qg4+)
+3. Qh4 $1 Ra6 
+(3. ...Rh6 4. Qe7+ Kg8 5. Qe8+ Kg7 6. Kg5 Rh7 7. Qe4 Rh8 8. Qe7+ Kg8 9. Kg6)
+4. Qd4+ Kh7 
+5. Qd7+ Kh6
+6. Qd8 $1 Kg7
+7. Qc7+ Kh6
+8. Qc8 $1 Ra5+
+9. Kf6 
+1-0

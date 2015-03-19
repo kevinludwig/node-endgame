@@ -1,0 +1,13 @@
+[FEN "8/8/8/8/4k3/8/8/QK6 w - - 1 1"]
+[Result "1-0"]
+
+1. Qc3 Kd5
+2. Kc2 Ke4
+3. Qd3+ Ke5
+4. Kc3 Kf4
+5. Kd4 Kg4
+6. Ke5 Kg5
+7. Qg3+ Kh6
+8. Kf6 Kh7
+9. Qg7# 
+1-0

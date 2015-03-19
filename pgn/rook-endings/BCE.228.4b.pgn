@@ -1,0 +1,13 @@
+[FEN "4K1k1/4P3/8/8/8/8/r7/5R2 b - - 1 1"]
+[Result "1-0"]
+
+{The Lucena position, where black has an ideally placed rook, but a misplaced king.}
+1. ...Ra8+
+2. Kd7 Ra7+
+3. Ke6 Ra6+
+4. Ke5 Ra5+
+5. Kf6 Ra6+
+6. Kg5 Ra5+
+7. Kg6 Ra8
+8. Rf6 {and wins.}
+1-0

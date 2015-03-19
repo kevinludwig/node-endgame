@@ -1,0 +1,9 @@
+[FEN "5k2/3b4/3P1K2/8/8/8/8/3B4 b - - 1 1"]
+[Result "1/2-1/2"]
+ 
+1. ...Ke8
+2. Bh5+ Kd8 {the basic drawing position}
+3. Ke5 Bh3 
+4. Ba4 Bg4 
+5. Kd5 Bd7 {if white captures the bishop it's a drawn king ending}
+1/2-1/2

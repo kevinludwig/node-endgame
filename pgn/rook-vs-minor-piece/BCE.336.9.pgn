@@ -1,0 +1,17 @@
+[FEN "8/8/8/8/1K2k3/1p4r1/1N6/8 w - - 1 1"]
+[Result "1/2-1/2"]
+[White "Em. Lasker"]
+[Black "Ed. Lasker"]
+
+{Lasker, 1924}
+1. Na4 Kd4 
+2. Nb2 Rf3 
+3. Na4 Re3
+4. Nb2 Ke4 
+5. Na4 Kf3 
+6. Ka3 Ke4 
+7. Kb4 $1 Kd4
+8. Nb2 Rh3 
+9. Na4 Kd3 $10
+10. Kxb3 Kd4+
+1/2-1/2

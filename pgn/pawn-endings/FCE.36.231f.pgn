@@ -1,0 +1,9 @@
+[FEN "6k1/4K1p1/6P1/8/8/8/7P/8 w - - 1 1"]
+[Result "1/2-1/2"]
+[Tag "fortress"]
+
+1. h3 Kh8
+2. h4 Kg8
+3. h5 Kh8
+4. h6 Kg8 (4. ...gxh6 $4 5. Kf7 {wins})
+5. Ke6 gxh6 $10

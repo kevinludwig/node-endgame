@@ -1,0 +1,11 @@
+[FEN "4K3/4P1k1/8/8/8/8/1r6/5R2 b - - 1 1"]
+[Result "1-0"]
+
+{The Lucena position, with the black rook on the long side of the pawn. Black lacks sufficient checking distance, and loses.}
+1. ...Rb8+ (1. ...Ra2 2. Rg1+ {and <a target="_blank" href="">wins</a>.})
+2. Kd7 Rb7+
+3. Kd6 Rb8 (3. ...Rb6+ 4. Kc7 Re6 5. Kd7 {wins.})
+4. Kc7 Ra8
+5. Ra1 $1 Rxa1 (5. ...Rh8 6. Kd7 {and wins.})
+6. e8=Q {wins a <a target="_blank" href="">QvR ending</a>.}
+1-0

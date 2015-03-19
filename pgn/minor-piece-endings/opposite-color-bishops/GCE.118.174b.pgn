@@ -1,0 +1,8 @@
+[FEN "1k6/3b4/PP6/K7/8/8/1B6/8 b - - 1 1"]
+[Result "1/2-1/2"]
+[Tag "opposite-color-bishops"]
+
+1. ...Bc6
+2. Be5+ Kc8 (2. ...Ka8 $2 3. Kb4 Bg2 4. Kc5 Bf3 5. Kd6 Kb8 6. Kd7+ Ka8 7. Kc7 Bg2 8. b7+)
+3. Kb4 Bg2
+1/2-1/2
