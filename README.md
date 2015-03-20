@@ -10,9 +10,9 @@ Play through chess endgames
 
 # TODO
 
-- menus (mmenu with categories)
-- list result page (bootstrap thumbnails, maybe infinite scroll)
-- home page (bootstrap thumbnails with infinite scroll)
+- list bugs (result is hard coded, position is not displaying right on preview)
+- menus (mmenu with categories, maybe hardcoded to start)
+- home page (bootstrap thumbnails with infinite scroll--hard-coded positions?)
 - content
     - bishop vs knight +
     - rook vs pawns +
