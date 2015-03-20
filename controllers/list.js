@@ -6,21 +6,20 @@ function grouper(elem, index) {
 }
 
 function toObject(elem) {
-    var n = elem.length,
+    var fen = elem.replace('/',''),
+        n = fen.length,
         i = 0,
         c,
         color,
         m = {};
+
     while (i < n) {
-        c = elem.charAt(i);
+        c = fen.charAt(i);
         if (c >= '0' && c <= '9') {
             i += parseInt(c, 10);
-        } else if (c !== '/') {
+        } else {
             color = (c === c.toUpperCase()) ? 'w' : 'b';
             m[i] = '/img/' + color + c.toLowerCase(c) + '.png';
-            i += 1;
-        }
-        else {
             i += 1;
         }
     }
