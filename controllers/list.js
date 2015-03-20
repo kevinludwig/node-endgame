@@ -24,7 +24,7 @@ function toObject(elem) {
             i += 1;
         }
     }
-    return m;
+    return {fen: elem, board: m};
 }
 
 module.exports = function(req, res) {

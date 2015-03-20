@@ -14,7 +14,7 @@ mixin make-board(board)
 block content
     for row in rows
         .row
-            for board in row
+            for data in row
                 .col-xs-6.col-md-3
-                    a.thumbnail(href='#'): +make-board(board)
+                    a.thumbnail(href='/detail/'+data.fen): +make-board(data.board)
                     .caption: p= "+/="
