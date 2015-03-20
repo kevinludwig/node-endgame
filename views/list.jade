@@ -5,8 +5,8 @@ mixin make-board(board)
         for x in range
             tr
                 for y in range
-                    -var clazz = ((x+y % 2) === 0 ? 'white' : 'black') + 'Square';
-                    td(class=clazz)
+                    -var className = (((x + y) % 2) === 0 ? 'white' : 'black') + 'Square';
+                    td(class=className)
                         -var val = board[(x*8)+y];
                         if val
                             img(src=val)
