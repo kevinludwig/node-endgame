@@ -27,7 +27,7 @@ function makeTitle(color, result) {
 }
 
 function pgnText(games, stm) {
-    if (games[stm]) {
+    if (games[stm].pgnText) {
         return games[stm].pgnText;
     } else if (stm === 'w') {
         return games.b.pgnText;

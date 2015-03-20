@@ -10,7 +10,6 @@ Play through chess endgames
 
 # TODO
 
-- detail page
 - menus
 - list result page (click from menu)
 - home page with list format and curated content
