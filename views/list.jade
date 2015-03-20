@@ -2,9 +2,9 @@ extends layout
 
 mixin make-board(board)
     table.preview
-        for x in range
+        each x in range
             tr
-                for y in range
+                each y in range
                     -var className = (((x + y) % 2) === 0 ? 'white' : 'black') + 'Square';
                     td(class=className)
                         -var val = board[(x*8)+y];
@@ -12,7 +12,7 @@ mixin make-board(board)
                             img(src=val)
 
 block content
-    for row in rows
+    each row in rows
         .row
             for data in row
                 .col-xs-6.col-md-3
