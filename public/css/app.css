@@ -91,3 +91,16 @@ body {
 #GameText .move {
     color: #696969;
 }
+
+/* list preview styling */
+.preview {
+    height:190px;
+    width:190px;
+}
+.preview img, .preview td {
+    width:24.25px;
+    min-width:24.25px;
+    height:24.25px;
+}
+
+
