@@ -1,3 +1,4 @@
+'use strict';
 var _ = require('underscore'),
     dir = require('node-dir'),
     fs = require('fs'),
