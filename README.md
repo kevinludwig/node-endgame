@@ -10,9 +10,9 @@ Play through chess endgames
 
 # TODO
 
-- menus
-- list result page (click from menu)
-- home page with list format and curated content
+- menus (mmenu with categories)
+- list result page (bootstrap thumbnails, maybe infinite scroll)
+- home page (bootstrap thumbnails with infinite scroll)
 - content
     - bishop vs knight +
     - rook vs pawns +
