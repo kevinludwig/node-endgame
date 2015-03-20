@@ -17,7 +17,7 @@ $(document).ready(function() {
 
     clearShortcutSquares("ABCDEFGH","12345678");
 
-    $('#custom-game-buttons button').click(function(ev) {
+    $('#button-bar button').click(function(ev) {
         clickedBbtn(this,ev);
     });
 

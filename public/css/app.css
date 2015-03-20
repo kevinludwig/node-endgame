@@ -26,10 +26,6 @@ footer p {
     margin-left:5px;
 }
 
-#search {
-    margin-right: 10px;
-}
-
 /* figurine movetext */
 body {
     font-family: 'pgn4web Liberation Sans', sans-serif;
@@ -38,7 +34,13 @@ body {
 .move, .variation, .commentMove {
     font-family: 'pgn4web ChessSansPiratf', 'pgn4web Liberation Sans', sans-serif;
 }
-
+.moveOn {
+    font-weight:bold;
+}
+.whiteSquare img, .blackSquare img {
+    height:45px;
+    width:45px;
+}
 .whiteSquare, .highlightWhiteSquare {
     background-color:#dcdcdc;
 }
@@ -72,23 +74,20 @@ body {
 
     padding-top:15px;
     padding-bottom:35px;
+    padding-right:15px;
+    padding-left: 15px;
 
-    height:300px;
+    /* this gives it height(!) */
+    overflow:hidden;
 }
 
+.btn-group.btn-group-justified {
+    margin-top: 5px;
+}
 #GameText {
     text-decoration:none;
     text-align:justify;
 }
 #GameText .move {
     color: #696969;
-}
-#custom-game-buttons {
-    margin-top:5px;
-}
-#startButton {
-    margin-left:0px;
-}
-#backButton,#autoplayButton,#forwardButton,#endButton {
-    margin-left:5px;
 }

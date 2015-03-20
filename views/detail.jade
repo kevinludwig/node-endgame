@@ -17,27 +17,26 @@ mixin nav-bar()
                 +game-result('b', blackResult, sideToMove)
 
 mixin button-bar()
-    #custom-game-buttons
-        button#startButton.btn.col-md-1(title="go to game start")
+    #button-bar.btn-group.btn-group-justified(role='group')
+        .btn-group: button#startButton.btn.btn-default(title="go to game start")
             span.glyphicon.glyphicon-fast-backward
-        button#backButton.btn.col-md-1(title="move back")
+        .btn-group: button#backButton.btn.btn-default(title="move back")
             span.glyphicon.glyphicon-backward
-        button#autoplayButton.btn.col-md-1(title="autoplay")
+        .btn-group: button#autoplayButton.btn.btn-default(title="autoplay")
             span.glyphicon.glyphicon-play
-        button#forwardButton.btn.col-md-1(title="move forward")
+        .btn-group: button#forwardButton.btn.btn-default(title="move forward")
             span.glyphicon.glyphicon-forward
-        button#endButton.btn.col-md-1(title="go to game end")
+        .btn-group: button#endButton.btn.btn-default(title="go to game end")
             span.glyphicon.glyphicon-fast-forward
 
 block content
     .container
-        .row
-            .col-md-12
-                +nav-bar()
-            .col-md-5
-                #GameBoard
-                +button-bar()
-            .col-md-7
-                #game-text-container: #GameText.col-md-6
+        .col-md-12
+            +nav-bar()
+        .col-md-5
+            #GameBoard
+            +button-bar()
+        .col-md-7
+            #game-text-container: #GameText
         form(style="display:none;")
             textarea#pgnText(style="display:none;")= pgnText
