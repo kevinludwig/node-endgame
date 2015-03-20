@@ -1,0 +1,94 @@
+.navbar {
+    margin-bottom:0;
+}
+
+.content {
+    padding-top:30px;
+    padding-bottom:20px;
+    background-image:url('/img/fancy_deboss.png');
+}
+
+footer {
+    padding-top:5px;
+    padding-bottom:15px;
+    background-color:rgb(250,250,250);
+
+    /* cross browser linear gradient hack */
+    background-image:-webkit-gradient(linear,center top, center bottom,from(#f2f2f2),to(#f2f2f2));
+    background-image:-moz-linear-gradient(center top, rgb(242,242,242),rgb(255,255,255));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2',endColorstr='#ffffff');
+
+    background-repeat:repeat-x;
+}
+footer p {
+    display: inline-block;
+    margin-right:5px;
+    margin-left:5px;
+}
+
+#search {
+    margin-right: 10px;
+}
+
+/* figurine movetext */
+body {
+    font-family: 'pgn4web Liberation Sans', sans-serif;
+}
+
+.move, .variation, .commentMove {
+    font-family: 'pgn4web ChessSansPiratf', 'pgn4web Liberation Sans', sans-serif;
+}
+
+.whiteSquare, .highlightWhiteSquare {
+    background-color:#dcdcdc;
+}
+.blackSquare, .highlightBlackSquare {
+    background-color:#708090;
+}
+
+#game-board-nav {
+    padding-left:20px;
+    margin-bottom:0;
+    background:transparent;
+}
+#game-text-container {
+    background-color:rgba(224,224,224,0.4);
+
+    -moz-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+
+    /* cross browser rounded corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+
+    /* cross browser background clip */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+
+    border: 1px solid rgba(0,0,0,0.25);
+
+    padding-top:15px;
+    padding-bottom:35px;
+
+    height:300px;
+}
+
+#GameText {
+    text-decoration:none;
+    text-align:justify;
+}
+#GameText .move {
+    color: #696969;
+}
+#custom-game-buttons {
+    margin-top:5px;
+}
+#startButton {
+    margin-left:0px;
+}
+#backButton,#autoplayButton,#forwardButton,#endButton {
+    margin-left:5px;
+}

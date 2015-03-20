@@ -1,0 +1,43 @@
+extends layout
+
+mixin game-result(color, result, stm)
+    if color == stm
+        strong(title=makeTitle(color,result)) #{abbreviateResult(result)}
+    else
+        a(href="?stm=" + color, title=makeTitle(color,result)) #{abbreviateResult(result)}
+
+mixin nav-bar()
+    ul#game-board-nav.breadcrumb
+        if whiteResult
+            li(class = sideToMove == 'w' ? 'active' : '')
+                +game-result('w', whiteResult, sideToMove)
+        if blackResult
+            span.divider='/'
+            li(class = sideToMove === 'b' ? 'active' : '')
+                +game-result('b', blackResult, sideToMove)
+
+mixin button-bar()
+    #custom-game-buttons
+        button#startButton.btn.col-md-1(title="go to game start")
+            span.glyphicon.glyphicon-fast-backward
+        button#backButton.btn.col-md-1(title="move back")
+            span.glyphicon.glyphicon-backward
+        button#autoplayButton.btn.col-md-1(title="autoplay")
+            span.glyphicon.glyphicon-play
+        button#forwardButton.btn.col-md-1(title="move forward")
+            span.glyphicon.glyphicon-forward
+        button#endButton.btn.col-md-1(title="go to game end")
+            span.glyphicon.glyphicon-fast-forward
+
+block content
+    .container
+        .row
+            .col-md-12
+                +nav-bar()
+            .col-md-5
+                #GameBoard
+                +button-bar()
+            .col-md-7
+                #game-text-container: #GameText.col-md-6
+        form(style="display:none;")
+            textarea#pgnText(style="display:none;")= pgnText
