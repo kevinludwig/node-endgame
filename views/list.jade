@@ -14,5 +14,5 @@ mixin make-board(board)
 block content
     for item in results
         .col-xs-12.col-sm-6.col-md-3
-            a.thumbnail(href='/detail/'+item.fen): +make-board(item.board)
-            .caption: p= "+/="
+            a.thumbnail(href='/detail/' + item.fen + '?stm=' + item.stm): +make-board(item.board)
+            .caption: p= item.result 

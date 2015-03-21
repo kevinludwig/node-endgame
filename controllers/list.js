@@ -1,43 +1,16 @@
 'use strict';
 var _ = require('underscore'),
+    util = require('../lib/util'),
     model = require('../lib/model');
 
-function isDigit(c) {
-    return c >= '0' && c <= '9';
-}
-
-function isUpper(c) {
-    return c === c.toUpperCase();
-}
-
-function makeImage(c) {
-    var color = isUpper(c) ? 'w' : 'b';
-    return '/img/' + color + c.toLowerCase() + '.png';
-}
-
-function toObject(elem) {
-    var n = elem.length,
-        pos = 0,
-        i,
-        c,
-        m = {};
-
-    for (i = 0; i < n; i++) {
-        c = elem.charAt(i);
-        if (isDigit(c)) {
-            pos += parseInt(c, 10);
-        } else if (c !== '/') {
-            m[pos] = makeImage(c);
-            pos += 1;
-        }
-    }
-    return {fen: elem, board: m};
+function convert(fen) {
+    return {fen: fen, stm: 'w'};
 }
 
 module.exports = function(req, res) {
     model.list(req.path.substr(5), function(err, results) {
         res.render('list', {
-            results: results.map(toObject),
+            results: results.map(convert).map(util.toObject),
             range: _.range(8)
         });
     });

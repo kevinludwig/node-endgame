@@ -1,7 +1,18 @@
 extends layout
 
+mixin make-board(board)
+    table.preview
+        each x in range
+            tr
+                each y in range
+                    -var className = (((x + y) % 2) === 0 ? 'white' : 'black') + 'Square';
+                    td(class=className)
+                        -var val = board[(x*8)+y];
+                        if val
+                            img(src=val)
+
 block content
-    .panel.panel-default
-        .panel-title white to play and win
-        .panel-body
-            p TODO, put the board here
+    for item in results
+        .col-xs-12.col-sm-6.col-md-3
+            a.thumbnail(href='/detail/' + item.fen + '?stm=' + item.stm): +make-board(item.board)
+            .caption: p= item.result
