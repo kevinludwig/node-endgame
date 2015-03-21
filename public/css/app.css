@@ -35,10 +35,9 @@
 .navbar-header .row {
     margin-left:10px;
 }
-.content {
-    padding-top:30px;
-    padding-bottom:20px;
-    background-image:url('/img/fancy_deboss.png');
+#content {
+    margin-top:100px;
+    margin-bottom:20px;
 }
 
 footer {
