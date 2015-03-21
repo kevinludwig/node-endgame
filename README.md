@@ -11,7 +11,6 @@ Play through chess endgames
 # TODO
 
 - list bugs (result is hard coded)
-- fill out menu categories
 - home page (bootstrap thumbnails with infinite scroll--hard-coded positions?)
 - content
     - bishop vs knight +
