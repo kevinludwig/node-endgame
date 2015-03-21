@@ -7,18 +7,27 @@ html(lang='en')
         script(src='/js/bootstrap.min.js')
         script(src='/js/pgn4web.js')
         script(src='/js/chess-informant-NAG-symbols.js')
+        script(src='/js/jquery.mmenu.min.js')
         script(src='/js/app.js')
         link(rel='stylesheet', type='text/css', href='/css/bootstrap.min.css')
         link(rel='stylesheet', type='text/css', href='/css/bootstrap-theme.min.css')
         link(rel='stylesheet', type='text/css', href='/css/pgn4web-font-LiberationSans.css')
         link(rel='stylesheet', type='text/css', href='/css/pgn4web-font-ChessSansPiratf.css')
+        link(rel='stylesheet', type='text/css', href='/css/jquery.mmenu.css')
         link(rel='stylesheet', type='text/css', href='/css/app.css')
-    body
+    body: .page-wrap
         nav.navbar.navbar-default.navbar-static-top(role='navigation')
             .container
                 .navbar-header
+                    a#hamburger(href="#menu"): span
                     .row: a.navbar-brand(href='/') Rook &amp; Pawn
                     .row: .text-muted Endgames made easy
+        nav#menu
+            ul
+                li: a(href='/list/queen-endings') Queen Endings
+                li: a(href='/list/rook-endings') Rook Endings
+                li: a(href='/list/pawnless-endings') Pawnless Endings
+                li: a(href='/list/pawn-endings') King &amp; Pawn Endings
 
         #content.container-fluid
             block content

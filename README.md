@@ -10,8 +10,8 @@ Play through chess endgames
 
 # TODO
 
-- list bugs (result is hard coded, position is not displaying right on preview)
-- menus (mmenu with categories, maybe hardcoded to start)
+- list bugs (result is hard coded)
+- fill out menu categories
 - home page (bootstrap thumbnails with infinite scroll--hard-coded positions?)
 - content
     - bishop vs knight +

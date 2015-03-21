@@ -1,9 +1,6 @@
+'use strict';
 var _ = require('underscore'),
     model = require('../lib/model');
-
-function grouper(elem, index) {
-    return Math.floor(index / 3);
-}
 
 function isDigit(c) {
     return c >= '0' && c <= '9';
@@ -40,7 +37,7 @@ function toObject(elem) {
 module.exports = function(req, res) {
     model.list(req.path.substr(5), function(err, results) {
         res.render('list', {
-            rows: _.chain(results).map(toObject).groupBy(grouper).toArray().value(),
+            results: results.map(toObject),
             range: _.range(8)
         });
     });

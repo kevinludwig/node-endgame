@@ -1,7 +1,40 @@
+.page-wrap {
+    margin:0;
+    padding:0;
+    border:0;
+}
 .navbar {
-    margin-bottom:0;
+    margin-bottom:20;
 }
 
+#hamburger:after {
+    top: 20px;
+}
+#hamburger:before {
+    top: 10px;
+}
+#hamburger {
+    box-sizing: border-box;
+    display:block;
+    width:70px;
+    height:45px;
+    position:fixed;
+    top:20px;
+    left:0px;
+    z-index:2;
+}
+#hamburger:before, #hamburger:after, #hamburger span {
+    background: none repeat scroll 0% 0% #888;
+    content: "";
+    display: block;
+    width:30px;
+    height:5px;
+    position: absolute;
+    left:20px;
+}
+.navbar-header .row {
+    margin-left:10px;
+}
 .content {
     padding-top:30px;
     padding-bottom:20px;
@@ -96,11 +129,10 @@ body {
 .preview {
     height:210px;
     width:210px;
+    margin: auto;
 }
 .preview img, .preview td {
     width:26px;
     min-width:26px;
     height:26px;
 }
-
-

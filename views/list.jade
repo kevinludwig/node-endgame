@@ -12,9 +12,7 @@ mixin make-board(board)
                             img(src=val)
 
 block content
-    each row in rows
-        .row
-            for data in row
-                .col-xs-6.col-md-3
-                    a.thumbnail(href='/detail/'+data.fen): +make-board(data.board)
-                    .caption: p= "+/="
+    for item in results
+        .col-xs-12.col-sm-6.col-md-3
+            a.thumbnail(href='/detail/'+item.fen): +make-board(item.board)
+            .caption: p= "+/="
