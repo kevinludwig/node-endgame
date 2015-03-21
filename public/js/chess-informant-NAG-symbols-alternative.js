@@ -1,20 +1,30 @@
 /*
  *  pgn4web javascript chessboard
- *  copyright (C) 2009-2012 Paolo Casaschi
+ *  copyright (C) 2009-2013 Paolo Casaschi
  *  see README file and http://pgn4web.casaschi.net
  *  for credits, license and more details
  */
 
+"use strict";
+
 if ((typeof(blockChessInformantNAGSymbols) != "boolean") || (!blockChessInformantNAGSymbols)) {
 
-  document.write('<link href="fonts/pgn4web-font-ChessOleFigurin.css" type="text/css" rel="stylesheet" />');
+  if (typeof(ii) == "undefined") { var ii; }
+
+  var jsre = new RegExp("chess-informant-NAG-symbols-alternative\.js$", "");
+  var FontPath = detectJavascriptLocation(jsre).replace(jsre, "");
+
+  document.write('<link href="' + FontPath + 'pgn4web-font-ChessOleFigurin.css" type="text/css" rel="stylesheet" />');
   document.write('<style type="text/css">.NAGs, .NAGl { font-family: "pgn4web ChessOleFigurin"; line-height: 1em; }</style>');
 
-  Ns = '<span class="NAGs">';
-  Nl = '<span class="NAGl">';
-  Ne = '</span>';
+  var Ns = '<span class="NAGs">';
+  var Nl = '<span class="NAGl">';
+  var Ne = '</span>';
 
-  basicNAGs = /^([\?!+#\s]|<span class="NAGs">[^<]*<.span>)+(\s|$)/;
+  var basicNAGs = /^([\?!+#\s]|<span class="NAGs">[^<]*<.span>)+(\s|$)/;
+
+  if (typeof(NAGstyle) == "undefined") { var NAGstyle; }
+  NAGstyle = 'olefigurin';
 
   NAG[0] = '';
   NAG[1] = '!';  // 'good move';
