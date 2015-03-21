@@ -5,22 +5,33 @@ function grouper(elem, index) {
     return Math.floor(index / 3);
 }
 
+function isDigit(c) {
+    return c >= '0' && c <= '9';
+}
+
+function isUpper(c) {
+    return c === c.toUpperCase();
+}
+
+function makeImage(c) {
+    var color = isUpper(c) ? 'w' : 'b';
+    return '/img/' + color + c.toLowerCase() + '.png';
+}
+
 function toObject(elem) {
-    var fen = elem.replace('/',''),
-        n = fen.length,
-        i = 0,
+    var n = elem.length,
+        pos = 0,
+        i,
         c,
-        color,
         m = {};
 
-    while (i < n) {
-        c = fen.charAt(i);
-        if (c >= '0' && c <= '9') {
-            i += parseInt(c, 10);
-        } else {
-            color = (c === c.toUpperCase()) ? 'w' : 'b';
-            m[i] = '/img/' + color + c.toLowerCase(c) + '.png';
-            i += 1;
+    for (i = 0; i < n; i++) {
+        c = elem.charAt(i);
+        if (isDigit(c)) {
+            pos += parseInt(c, 10);
+        } else if (c !== '/') {
+            m[pos] = makeImage(c);
+            pos += 1;
         }
     }
     return {fen: elem, board: m};
