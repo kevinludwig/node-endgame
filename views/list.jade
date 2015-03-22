@@ -1,18 +1,16 @@
 extends layout
 
 mixin make-board(board)
-    table.preview
+    .preview
         each x in range
-            tr
-                each y in range
-                    -var className = (((x + y) % 2) === 0 ? 'white' : 'black') + 'Square';
-                    td(class=className)
-                        -var val = board[(x*8)+y];
-                        if val
-                            img(src=val)
-
+            each y in range
+                -var className = (((x + y) % 2) === 0 ? 'white' : 'black') + 'Square';
+                .preview-square(class=className)
+                    -var val = board[(x*8)+y];
+                    if val
+                        img.img-responsive(src=val)
 block content
     for item in results
-        .col-xs-12.col-sm-6.col-md-3
+        .col-xs-6.col-sm-4.col-md-3.col-lg-2
             a.thumbnail(href='/detail/' + item.fen + '?stm=' + item.stm): +make-board(item.board)
             .caption: p= item.result 

@@ -30,4 +30,10 @@ $(document).ready(function() {
             i.removeClass('glyphicon-pause').addClass('glyphicon-play');
         }
     });
+
+    var preview = $('.preview');
+    $(window).resize(function() {
+        preview.height(preview.width());
+    });
+    preview.height(preview.width());    
 });
