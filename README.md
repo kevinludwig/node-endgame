@@ -10,6 +10,7 @@ Play through chess endgames
 
 # TODO
 
+- responsive (no fixed size images, hamburger menu, etc)
 - list bugs (result is hard coded)
 - home page (bootstrap thumbnails with infinite scroll--hard-coded positions?)
 - content
