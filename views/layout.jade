@@ -16,7 +16,7 @@ html(lang='en')
         link(rel='stylesheet', type='text/css', href='/css/jquery.mmenu.css')
         link(rel='stylesheet', type='text/css', href='/css/app.css')
     body: .page-wrap
-        nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
+        nav.navbar.navbar-default.navbar-static-top(role='navigation')
             .container
                 .navbar-header
                     a#hamburger(href="#menu"): span
@@ -40,7 +40,7 @@ html(lang='en')
             .container
                 .row.text-muted.text-center
                     p
-                        span chess viewer courtesy of
+                        span= "chess viewer courtesy of "
                         a(href="http://pgn4web.casaschi.net", target="_blank") pgn4web
                     strong= "|"
                     p Kevin Ludwig &copy; 2015, All rights reserved.
