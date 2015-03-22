@@ -1,3 +1,15 @@
+mixin menu()
+    #menu.navbar-collapse.collapse
+        ul.nav.navbar-nav
+            li: a(href='/list/queen-endings') Queen Endings
+            li: a(href='/list/rook-endings') Rook Endings
+            li: a(href='/list/rook-vs-minor-piece') Rook vs. Minor Piece
+            li: a(href='/list/minor-piece-endings/bishop-endings') Bishop Endings
+            li: a(href='/list/minor-piece-endings/opposite-color-bishops') Opposite Colored Bishops
+            li: a(href='/list/minor-piece-endings/knight-endings') Knight Endings
+            li: a(href='/list/pawnless-endings') Pawnless Endings
+            li: a(href='/list/pawn-endings') King &amp; Pawn Endings
+
 doctype html
 html(lang='en')
     head
@@ -7,37 +19,29 @@ html(lang='en')
         script(src='/js/bootstrap.min.js')
         script(src='/js/pgn4web.js')
         script(src='/js/chess-informant-NAG-symbols.js')
-        script(src='/js/jquery.mmenu.min.js')
         script(src='/js/app.js')
         link(rel='stylesheet', type='text/css', href='/css/bootstrap.min.css')
         link(rel='stylesheet', type='text/css', href='/css/bootstrap-theme.min.css')
         link(rel='stylesheet', type='text/css', href='/css/pgn4web-font-LiberationSans.css')
         link(rel='stylesheet', type='text/css', href='/css/pgn4web-font-ChessSansPiratf.css')
-        link(rel='stylesheet', type='text/css', href='/css/jquery.mmenu.css')
         link(rel='stylesheet', type='text/css', href='/css/app.css')
-    body: .page-wrap
+    body
         nav.navbar.navbar-default.navbar-static-top(role='navigation')
-            .container
+            .container-fluid
                 .navbar-header
-                    a#hamburger(href="#menu"): span
+                    button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#menu')
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
                     .row: a.navbar-brand(href='/') Rook &amp; Pawn
                     .row: .text-muted Endgames made easy
-        nav#menu
-            ul
-                li: a(href='/list/queen-endings') Queen Endings
-                li: a(href='/list/rook-endings') Rook Endings
-                li: a(href='/list/rook-vs-minor-piece') Rook vs. Minor Piece
-                li: a(href='/list/minor-piece-endings/bishop-endings') Bishop Endings
-                li: a(href='/list/minor-piece-endings/opposite-color-bishops') Opposite Colored Bishops
-                li: a(href='/list/minor-piece-endings/knight-endings') Knight Endings
-                li: a(href='/list/pawnless-endings') Pawnless Endings
-                li: a(href='/list/pawn-endings') King &amp; Pawn Endings
+                +menu()
 
         #content.container-fluid
             block content
 
         footer.navbar.navbar-default.navbar-fixed-bottom
-            .container
+            .container-fluid
                 .row.text-muted.text-center
                     p
                         span= "chess viewer courtesy of "

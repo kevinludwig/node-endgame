@@ -30,6 +30,4 @@ $(document).ready(function() {
             i.removeClass('glyphicon-pause').addClass('glyphicon-play');
         }
     });
-
-    $('#menu').mmenu();
 });
