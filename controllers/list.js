@@ -3,8 +3,8 @@ var _ = require('underscore'),
     util = require('../lib/util'),
     model = require('../lib/model');
 
-function convert(fen) {
-    return {fen: fen, stm: 'w'};
+function convert(res) {
+    return _.extend(res, {stm: 'w'});
 }
 
 module.exports = function(req, res) {

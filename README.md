@@ -10,9 +10,9 @@ Play through chess endgames
 
 # TODO
 
-- responsive (no fixed size images, hamburger menu, etc)
-- list bugs (result is hard coded)
-- home page (bootstrap thumbnails with infinite scroll--hard-coded positions?)
+- recompile bootstrap to have no breakpoint for toggle menu (or patch in css)
+- home page some description of what it is
+- home page title/desc on positions
 - content
     - bishop vs knight +
     - rook vs pawns +
