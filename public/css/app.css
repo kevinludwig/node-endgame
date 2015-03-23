@@ -78,9 +78,10 @@ body {
     overflow:hidden;
 }
 
-.btn-group.btn-group-justified {
+#button-bar {
     margin-top: 5px;
     margin-bottom:20px;
+    max-width:calc(45px * 8);
 }
 #GameText {
     text-decoration:none;
