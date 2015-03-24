@@ -1,0 +1,7 @@
+[FEN "6k1/1r6/5PK1/8/8/8/8/R7 b - - 1 1"]
+[Result "1/2-1/2"]
+
+{Black has a stalemate defence}
+1. ...Rg7+ (1. ...Rb8 $2 2. Ra7 Rc8 3. Rg7+ Kf8 4. Rh7 Kg8 5. f7+ Kf8 6. Rh8+)
+2. Kf5 Rg2 $10
+1/2-1/2
