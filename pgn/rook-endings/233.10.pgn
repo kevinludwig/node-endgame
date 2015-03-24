@@ -1,0 +1,7 @@
+[FEN "1r4k1/R7/6PK/8/8/8/8/8 w - - 1 1"]
+[Result "1/2-1/2"]
+
+{Black can play a passive defence with the pawn on the b or g file}
+1. Rg7+ Kh8 (1. ...Kf8 $4 2. Kh7 $1 Rb1 3. Rf7+ Ke8 4. Rf2)
+2. Rh7+ Kg8 $10
+1/2-1/2

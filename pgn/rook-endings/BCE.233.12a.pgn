@@ -1,0 +1,13 @@
+[FEN "7r/4k3/8/8/2P5/2K5/8/3R4 w - - 1 1"]
+[Result "1-0"]
+
+{White wins via the "Combined Method"}
+1. Kb4 $1 (1. c5 $2 Rd8 $10 (1. ...Rh4 2. Kb3 Rg4 3. c6 Rg6 $10)) Rb8+ (1. ...Rd8 2. Rxd8 Kxd8 3. Kb5 $1)
+2. Ka5 Rc8 (2. ...Ra8+ 3. Kb6 Rb8+ 4. Kc7)
+3. Kb5 Rb8+
+4. Ka6 Rc8
+5. Rd4 $1 {the black king is too far away from e5} Ke6
+6. Kb7 Rc5 (6. ...Ke5 7. Rd5+)
+7. Kb6 Rc8
+8. c5
+1-0

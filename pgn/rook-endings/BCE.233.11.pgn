@@ -1,0 +1,13 @@
+[FEN "5k2/1R6/6K1/6P1/8/8/8/5r2 b - - 1 1"]
+[Result "1-0"]
+
+{Black does not have time to reach a passive defence}
+1. ...Rg1 (1. ...Kg8 2. Rb8+ Rf8 3. Rxf8+ Kxf8 4. Kh7)
+2. Rb8+ Ke7
+3. Rg8 $1 Rg2
+4. Kh7 Kf7
+5. g6+ Ke7
+6. Ra8 Rh2+
+7. Kg8 Kf6
+8. g7 Ke7 {and white has a lucena position}
+1-0

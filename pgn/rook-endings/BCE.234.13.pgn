@@ -1,0 +1,21 @@
+[FEN "7r/4k3/8/8/2P5/2K5/8/3R4 b - - 1 1"]
+[Result "1/2-1/2"]
+
+{Black has two drawing methods}
+1. ...Ke6 (1. ...Rd8 2. Rxd8 Kxd8 3. Kb4 Ke8 $1 $10)
+2. Kb4 Rb8+
+3. Ka5 Rc8
+4. Kb5 Rb8+
+5. Ka6 Rc8
+6. Rd4 Ke5 $1
+7. Rd5+ Ke6
+8. Kb5 Rb8+
+9. Ka4 Rc8
+10. Kb4 Rb8+
+11. Rb5 Rh8
+12. Rb7 Kd6
+13. Kb5 Rh5+
+14. Kb6 Rc5
+15. Rd7+ Kxd7
+16. Kxc5 Kc7 $1 $10
+1/2-1/2
