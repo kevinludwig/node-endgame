@@ -1,0 +1,22 @@
+[FEN "8/3p4/6B1/1k6/8/1p2p3/3b4/3K4 w - - 1 1"]
+[Result "1/2-1/2"]
+[Tag "opposite-color-bishops"]
+
+{Chekhover 1950}
+1. Be8 Kc6
+2. Ke2 Bc1
+3. Kd1 Bb2
+4. Ke2 Bd4
+5. Kd1 Kd6
+6. Bf7 $1 {forcing the b-pawn to advance} b2
+7. Bg6 Kc5
+8. Ke2 d5
+9. Bf5 Kb4
+10. Bg6 Ka3
+11. Bb1 {now white has a fortress} Kb3
+12. Kd1 Kc3
+13. Ke2 Bc5
+14. Kd1 d4
+15. Ke2 Kb3
+16. Kd3 $10
+1/2-1/2
