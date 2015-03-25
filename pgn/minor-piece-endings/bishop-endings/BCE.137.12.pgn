@@ -1,5 +1,8 @@
 [FEN "8/K7/bP6/k4B2/8/8/8/8 w - - 1 1"]
 [Result "1-0"]
+[Tag "averbakh"]
 
-1. Bg4 Kb5
-2. Be2+ 
+{Averbakh}
+1. Bg4 {zugzwang} Kb5
+2. Be2+
+1-0
