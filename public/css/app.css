@@ -34,10 +34,6 @@ body {
 .moveOn {
     font-weight:bold;
 }
-.whiteSquare img, .blackSquare img {
-    height:45px;
-    width:45px;
-}
 .whiteSquare, .highlightWhiteSquare {
     background-color:#dcdcdc;
 }
@@ -78,10 +74,10 @@ body {
     overflow:hidden;
 }
 
+/* button bar fixed to width of game board */
 #button-bar {
     margin-top: 5px;
     margin-bottom:20px;
-    max-width:calc(45px * 8);
 }
 #GameText {
     text-decoration:none;
@@ -89,6 +85,26 @@ body {
 }
 #GameText .move {
     color: #696969;
+}
+
+/* game board */
+#GameBoard table, #GameBoard tbody, #GameBoard tr, #GameBoard td, #GameBoard th {
+    display: block;
+}
+#GameBoard td, #GameBoard th {
+    float: left;
+}
+#GameBoard table {
+    width: 100%:
+    height: auto;
+}
+#GameBoard .whiteSquare img, #GameBoard .blackSquare img {
+    width: 100%;
+    height: auto;
+}
+#GameBoard td, #GameBoard th {
+    height: calc(100%/8);
+    width: calc(100%/8);
 }
 
 /* list preview styling */
