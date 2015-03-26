@@ -52,8 +52,11 @@ function shutdown() {
 }
 
 cluster(function() {
-    server = app.listen(config.port, function() {
-        log.info('pid %d listening on port %d', process.pid, config.port);
+    var port = process.env.OPENSHIFT_NODEJS_PORT || config.port,
+        address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
+    
+server = app.listen(port, address, function() {
+        log.info('pid %d listening on port %s:%d', process.pid, address, port);
     });
 
     process.on('SIGTERM', shutdown);
