@@ -3,7 +3,7 @@
     "version":"0.0.0",
     "description":"chess endgames",
     "engines": {
-        "node": ">=0.12.0"
+        "node": ">=0.10.0"
     },
     "repository": {
         "type": "git",
@@ -34,7 +34,8 @@
         "grunt-jscs": "~1.5.0"
     },
     "scripts": {
-        "start":"NODE_ENV=development node app.js",
+        "dev": "NODE_ENV=development node app.js",
+        "start":"NODE_ENV=production node app.js",
         "test": "node_modules/grunt-cli/bin/grunt"
     }
 }
