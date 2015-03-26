@@ -2,9 +2,9 @@ extends layout
 
 mixin game-result(color, result, stm)
     if color == stm
-        strong(title=makeTitle(color,result)) #{abbreviateResult(result)}
+        strong(title=makeTitle(color,result)) #{makeTitle(color, result)}
     else
-        a(href="?stm=" + color, title=makeTitle(color,result)) #{abbreviateResult(result)}
+        a(href="?stm=" + color, title=makeTitle(color,result)) #{makeTitle(color, result)}
 
 mixin nav-bar()
     ul#game-board-nav.breadcrumb

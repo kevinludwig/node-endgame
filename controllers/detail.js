@@ -1,29 +1,21 @@
 'use strict';
 var model = require('../lib/model');
 
-function resultString(r) {
-    if (r === '1-0') {
-        return 'win';
-    } else if (r === '0-1') {
-        return 'lose';
-    } else {
+function resultString(color, r) {
+    if (r === '1/2-1/2') {
         return 'draw';
-    }
-}
-
-function abbreviateResult(result) {
-    if (result === '1-0') {
-        return '+';
-    } else if (result === '0-1') {
-        return '-';
+    } else if (r === '1-0' && color === 'w') {
+        return 'win';
+    } else if (r === '0-1' && color === 'b') {
+        return 'win';
     } else {
-        return '=';
+        return 'lose';
     }
 }
 
 function makeTitle(color, result) {
     var s = color.toLowerCase() === 'w' ? 'White' : 'Black';
-    return s + ' to play and ' + resultString(result);
+    return s + ' to play and ' + resultString(color, result);
 }
 
 function pgnText(games, stm) {
@@ -40,7 +32,6 @@ module.exports = function(req, res) {
     model.findGames(req.path.substr(8), function(err, games) {
         var stm = req.query.stm || 'w';
         res.render('detail', {
-            abbreviateResult: abbreviateResult,
             makeTitle: makeTitle,
             pgnText: pgnText(games, stm),
             whiteResult: games.w && games.w.result,
