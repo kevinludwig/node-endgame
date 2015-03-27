@@ -34,7 +34,7 @@ body {
 .moveOn {
     font-weight:bold;
 }
-.whiteSquare img, .blackSquare img {
+.whiteSquare, .blackSquare {
     width: 45px;
     height: 45px;
 }
