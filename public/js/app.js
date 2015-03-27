@@ -32,11 +32,8 @@ $(document).ready(function() {
     });
 
     var preview = $('.preview');
-    var board = $('#GameBoard table');
     $(window).resize(function() {
         preview.height(preview.width());
-        board.height(board.width());
     });
     preview.height(preview.width());
-    board.height(board.width());
 });
