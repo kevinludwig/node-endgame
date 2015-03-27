@@ -92,26 +92,6 @@ body {
     color: #696969;
 }
 
-/* game board */
-#GameBoard table, #GameBoard tbody, #GameBoard tr, #GameBoard td, #GameBoard th {
-    display: block;
-}
-#GameBoard td, #GameBoard th {
-    float: left;
-}
-#GameBoard table {
-    width: 100%:
-    height: auto;
-}
-#GameBoard .whiteSquare img, #GameBoard .blackSquare img {
-    width: 100%;
-    height: auto;
-}
-#GameBoard td, #GameBoard th {
-    height: calc(100%/8);
-    width: calc(100%/8);
-}
-
 /* list preview styling */
 .preview {
     width:100%;
