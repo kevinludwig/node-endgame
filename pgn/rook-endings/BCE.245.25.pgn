@@ -1,0 +1,15 @@
+[FEN "3r4/8/8/2R5/3P4/1kP4K/8/8 b - - 1 1"]
+[Result "1-0"]
+
+1. ...Kc2 {white's basic plan is to advance the pawns via d5, c4, Rc6, etc.}
+2. d5 Kd3
+3. c4 Kd4 
+4. Rc6 Ke5
+5. Kg4 Rf8
+6. d6 Ke6 
+7. c5 Kd7
+8. Rc7+ Kd8
+9. Ra7 Rf6
+10. Kg5 Re6
+11. Kf5 {wins}
+1-0
