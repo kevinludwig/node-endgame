@@ -1,0 +1,10 @@
+[FEN "K7/P7/3k4/8/8/8/2R5/1r6 w - - 1 1"]
+[Result "1-0"]
+
+1. Rc8 $1 Kd7
+2. Rb8 Ra1
+3. Kb7 Rb1+
+4. Ka6 Ra1+
+5. Kb6 Rb1+
+6. Kc5 {white can approach the rook from the b and c files}
+1-0
