@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: 'pgn4web ChessInformantReader';
-  src: url('ChessInformantReader.eot');
-  src: url('ChessInformantReader.eot?#iefix') format('embedded-opentype'), url('ChessInformantReader.woff') format('woff'), url('ChessInformantReader.ttf') format('truetype'), url('ChessInformantReader.svg#CReaderTRegular') format('svg');
+  src: url('/fonts/ChessInformantReader.eot');
+  src: url('/fonts/ChessInformantReader.eot?#iefix') format('embedded-opentype'), url('/fonts/ChessInformantReader.woff') format('woff'), url('/fonts/ChessInformantReader.ttf') format('truetype'), url('/fonts/ChessInformantReader.svg#CReaderTRegular') format('svg');
 }
 

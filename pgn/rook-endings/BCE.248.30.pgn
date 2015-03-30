@@ -1,0 +1,19 @@
+[FEN "3K4/7r/Pk6/1P1R4/8/8/8/8 w - - 1 1"]
+[Result "1/2-1/2"]
+
+{Cheron 1926}
+1. Kc8 Rg7
+2. Rd7 Rg8+
+3. Rd8 Rg7
+4. Kb8 (4. Rd6+ Kxb5 5. Kb8 Rg8+ $10) Rh7
+5. Rd6+ (5. a7 Rb7+ $1) (5. Re8 Rg7 6. Re6+ Kxb5 7. a7 Rg8+ $10) Kc5 $1
+(5. ...Kxb5 $2 6. a7 Rh8+ 7. Kc7 Rh7+ 8. Rd7)
+6. b6 
+(6. Re6 Kxb5 7. a7 Rh8+ $10) 
+(6. a7 Kxd6 7. a8Q Rh8+ 8. Kb7 Rxa8 9. Kxa8 Kc5 $10) 
+(6. Rd8 Kb6 $1 $10 {repeats the position}) Kxd6
+7. Ka8 (7. a7 Kc5 8. a8Q $1 $10) Rh8+
+8. Ka7 Kc6
+9. b7 Kc7
+10. b8Q+ Rxb8 {stalemate}
+1/2-1/2

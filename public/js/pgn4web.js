@@ -1635,7 +1635,7 @@ function pgnGameFromPgnText(pgnText) {
 
   var newNumGames, headMatch, prevHead, newHead, startNew, afterNew, lastOpen, checkedGame, validHead;
 
-  pgnText = simpleHtmlentities(fixCommonPgnMistakes(pgnText));
+  pgnText = fixCommonPgnMistakes(pgnText);
 
   // PGN standard: ignore lines starting with %
   pgnText = pgnText.replace(/(^|\n)%.*(\n|$)/g, "\n");
