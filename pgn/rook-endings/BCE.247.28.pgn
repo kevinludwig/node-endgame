@@ -1,0 +1,9 @@
+[FEN "8/8/8/Pk3r2/1P6/1K4R1/8/8 w - - 1 1"]
+[Result "1/2-1/2"]
+
+1. Rc3 
+(1. Rg8 Rf3+ {with ...Kxb4 to follow})
+(1. Rg4 Rf3+ 2. Kc2 Rh3 3. Rd4 Rg3 4. Rd3 Rg4 $10) Rh5 
+2. Rc5+ Rxc5 
+3. bxc5 Kxc5 $1 $10
+1/2-1/2

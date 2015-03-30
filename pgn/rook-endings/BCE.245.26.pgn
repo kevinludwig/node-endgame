@@ -1,0 +1,17 @@
+[FEN "8/8/5Pk1/4R1P1/6r1/4K3/8/8 w - - 1 1"]
+[White "Ornstein"]
+[Black "Spiridonov"]
+[Result "1-0"]
+
+{Albena 1976. White must break the blockade to win}
+1. Rd5 Rg1 (1. ...Ra4 2. Rd8 $1 Rg4 (2. ...Kxg5 3. f7) 3. Rg8+ Kf7 4. Rg7+ Kf8 5. Kf3 Ra4 6. Rb7 Ra6 7. Kg4)
+2. Kd4 Rc1 
+3. Re5 Rd1+
+4. Kc5 Rd7
+5. Rd5 $1 (5. Re7 $2 Rxe7 6. fxe7 Kf7 7. Kd6 Ke8 $1 $10) Ra7
+6. Kd6 Ra6+
+7. Ke7 Ra1
+8. Rd6 Ra7+
+9. Rd7 Ra6
+10. f7 {wins}
+1-0

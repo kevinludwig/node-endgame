@@ -1,0 +1,8 @@
+[FEN "8/8/8/1Pk3r1/2P5/2K4R/8/8 w - - 1 1"]
+[Result "1-0"]
+
+1. Rd3 Rh5 
+2. Rd5+ Rxd5
+3. cxd5 Kxb5 (3. ...Kxd5 4. Kb4)
+4. Kd4
+1-0
