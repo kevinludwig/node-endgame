@@ -1,6 +1,8 @@
 # Overview
 
-Play through chess endgames
+Play through chess endgames.
+
+I'm hosting it here: (http://chess-endgames.rhcloud.com)
 
 # Installation and setup
 
