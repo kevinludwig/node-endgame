@@ -3704,7 +3704,8 @@ function variationTextFromId(varId) {
     myAlert("error: issue parsing variation id " + varId + " in game " + (currentGame+1), true);
     return "";
   }
-  var text = ++variationTextDepth ? ('<SPAN CLASS="variation">' + (printedVariation ? ' ' : '') + (variationTextDepth > 1 ? '(' : '[')) + '</SPAN>' : '';
+  var text = '<div class="variation-wrap">';
+  text += ++variationTextDepth ? ('<SPAN CLASS="variation">' + (printedVariation ? ' ' : '') + (variationTextDepth > 1 ? '(' : '[')) + '</SPAN>' : '';
   printedVariation = false;
   for (var ii = StartPlyVar[varId]; ii < StartPlyVar[varId] + PlyNumberVar[varId]; ii++) {
     printedComment = false;
@@ -3734,6 +3735,7 @@ function variationTextFromId(varId) {
     printedComment = true;
   }
   text += variationTextDepth-- ? ('<SPAN CLASS="variation">' + (variationTextDepth ? ')' : ']') + '</SPAN>') : '';
+  text += "</div>";
   printedVariation = true;
   return text;
 }

@@ -28,6 +28,10 @@ body {
     font-family: 'pgn4web Liberation Sans', sans-serif;
 }
 
+.variation-wrap {
+    padding-left:10px;
+}
+
 .move, .variation, .commentMove {
     font-family: 'pgn4web ChessSansPiratf', 'pgn4web Liberation Sans', sans-serif;
 }
