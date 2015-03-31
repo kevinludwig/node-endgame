@@ -1,0 +1,12 @@
+[FEN "8/8/7k/6R1/6PP/6K1/8/2r5 b - - 1 1"]
+[Result "1/2-1/2"]
+
+{Kasparian, 1946}
+1. ...Rc3+
+2. Kf4 Rc4+
+3. Kf5 (3. Kf3 Rc3+ 4. Ke2 Rc4 $1) Rc5+
+4. Kf6 Rc6+
+5. Kf7 Rc7+
+6. Ke6 Rc4 $1 $10
+7. Rg8 Kh7 $1
+1/2-1/2
