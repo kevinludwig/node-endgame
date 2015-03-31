@@ -1,0 +1,17 @@
+[FEN "8/8/8/8/8/1K2k3/4p3/4N1n1 w - - 1 1"]
+[White "Tisdall"]
+[Black "Dobrescu"]
+[Date "1990"]
+[Result "0-1"]
+
+{black's idea is to get diagonal opposition to the knight, which removes white's tactics}
+1. Ng2+
+(1. Nc2+ Kd2 2. Kb2 Nf3 3. Kb3 Kd3 (3. ...Nd4+ $2 4. Nxd4 e1=Q 5. Nf3+ $10) 4. Kb2 (4. Nb4+ Ke4 5. Nc2 Nd4+) Nd4 5. Ne1+ Kd2 6. Ng2 Ne6 7. Kb3 (7. Nh4 Ke3)  Nf4 8. Nh4 Ke3)
+(1. Kc3 Nf3 2. Nd3 (2. Nc2+ Kf2 3. Kc4 Ne5+ 4. Kd5 Ng4 5. Kd4 Ne3 6. Nb4 Kf1 7. Nd3 Nd1) (2. Ng2+ $2 Kf2 3. Kd3 Ne1+) Ne5 3. Ne1 Kf2 4. Nc2 Ng4 5. Kd4 Ne3 6. Nb4 Kf1 7. Nd3 Nd1)
+Kd2
+2. Kc4 Nh3
+3. Kd4 (3. Nh4 Ke3 {next is Kf2 and wins}) Nf4
+4. Nh4 Kd1
+5. Nf3 Ne6+
+6. Kd3 Ng5 {wins}
+1-0
