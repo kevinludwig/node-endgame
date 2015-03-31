@@ -1,0 +1,16 @@
+[FEN "Q7/8/8/8/5ppk/7p/8/K7 w - - 1 1"]
+[Result "1-0"]
+
+{Berger 1914}
+1. Kb2 g3
+(1. ...f3 2. Qb8)
+(1. ...h2 2. Qg2 g3 Qf3)
+(1. ...Kg3 Qh1)
+(1. ...Kg5 2. Qd8+ Kg6 3. Qh4 Kf5 4. Qh5+)
+(1. ...Kh5 2. Qh8+ Kg5 3. Qd8+)
+2. Qf3 Kg5
+3. Kc2 g2
+4. Qf2 Kg4
+5. Kd2 f3
+6. Ke3
+1-0

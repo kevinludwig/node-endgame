@@ -1,0 +1,11 @@
+[FEN "1Q6/8/8/8/8/4K3/6k1/7q w - - 1 1"]
+[Result "1-0"]
+
+1. Qb2+ Kg3
+2. Qg7+ Kh3
+3. Qh6+ Kg2
+4. Qg5+ Kf1
+5. Qf4+ Kg2
+6. Qg4+ Kh2 (6. ...Kf1 7. Qe2+ Kg1 8. Qf2#)
+7. Kf2 {wins}
+1-0
