@@ -13,15 +13,15 @@ module.exports = function(grunt) {
                 curly: true,
                 eqeqeq: true,
                 forin: true,
-                freeze:true,
-                nocomma:true,
-                noarg:true,
-                nonew:true,
-                notypeof:true,
-                shadow:false,
-                undef:true,
-                unused:true,
-                node:true,
+                freeze: true,
+                nocomma: true,
+                noarg: true,
+                nonew: true,
+                notypeof: true,
+                shadow: false,
+                undef: true,
+                unused: true,
+                node: true,
                 mocha: true
             }
         },
@@ -37,6 +37,9 @@ module.exports = function(grunt) {
                     value: 160,
                 }
             }
+        },
+        jsbeautifier: {
+            files: files
         },
         mocha_istanbul: {
             coverage: {
@@ -59,6 +62,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-mocha-istanbul');
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-jscs');
+    grunt.loadNpmTasks('grunt-jsbeautifier');
 
-    grunt.registerTask('default', ['clean', 'jshint', 'jscs', 'mocha_istanbul']);
+    grunt.registerTask('default', ['clean', 'jshint', 'jsbeautifier', 'jscs', 'mocha_istanbul']);
 };

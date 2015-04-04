@@ -4,7 +4,9 @@ var _ = require('underscore'),
     model = require('../lib/model');
 
 function convert(res) {
-    return _.extend(res, {stm: 'w'});
+    return _.extend(res, {
+        stm: 'w'
+    });
 }
 
 module.exports = function(req, res) {
