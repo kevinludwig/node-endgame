@@ -32,7 +32,8 @@
         "grunt-contrib-clean": "*",
         "grunt-contrib-jshint":"*",
         "grunt-mocha-istanbul": "*",
-        "grunt-jscs": "~1.5.0"
+        "grunt-jscs": "~1.5.0",
+        "grunt-jsbeautifier": "^0.2.10"
     },
     "scripts": {
         "start":"NODE_ENV=development node app.js",

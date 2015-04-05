@@ -17,7 +17,9 @@ app.set('view engine', 'jade');
 app.use(favicon(__dirname + '/public/img/favicon.ico'));
 app.use(express.static(__dirname + '/public'));
 app.use(domainMiddleware);
-app.use(bodyParser.urlencoded({extended:true}));
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
 app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(compression());
