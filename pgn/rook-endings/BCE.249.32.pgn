@@ -1,0 +1,21 @@
+[FEN "8/6k1/5R2/5PP1/5K2/8/r7/8 b - - 1 1"]
+[White ""]
+[Black ""]
+[Result "1/2-1/2"]
+
+{Kasparian, 1946.}
+1. ...Rf2+
+2. Ke3 (2. Kg3 Rf1 3. Kg2 Rf4 4. Kg3 Rf1 5. Kg4 Rg1+ 6. Kf4 Rf1+ 7. Ke3 Rg1 8. Rg6+ Kf7 9. Kf2 Rg4 $10 {white is not making progress}) Rg2
+3. Rg6+ Kf7
+4. Kf3 Rg1 $1
+5. Ke4 Rg2
+6. Kd5 Rg1
+7. Kd6 Rg2
+8. Kd7 Rg1
+9. Rf6+ Kg7 {white needs to give up the g-pawn to continue making progress}
+10. Rd6 Rxg5
+11. Ke6 Rg1
+12. Ke7 (12. f6 Kg6 13. Ke7 Rf1 14. Re6 Rf2 15. Re1 Ra2 $1 16. Rg1+ Kh7 17. f7 Ra7+ $10) (12. Rd7+ Kh6 $1 13. f6 Ra1 14. Rd8 Ra6+ 15. Ke7 Ra7+ 16. Rd7 Ra8 $1 $10) Rf1 $1
+13. Rg6+ Kh7
+14. Kf6 Ra1 $1 $10
+1/2-1/2
