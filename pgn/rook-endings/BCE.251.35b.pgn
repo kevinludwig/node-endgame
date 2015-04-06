@@ -1,16 +1,20 @@
-[FEN "6k1/R7/5P1P/6K1/8/8/8/1r6 b - - 1 1"]
+[FEN "6k1/R7/7P/5PK1/8/8/8/3r4 b - - 1 1"]
 [Result "1-0"]
 
 1. ...Rg1+
-2. Kf5 Rf1+
-3. Ke6 Re1+
-4. Kd6 Rd1+ (4. ...Rh1 5. Ra8+ Kf7 6. h7 $1 Rxh7 7. Ra7+)
-5. Ke7 Re1+
-6. Kd8 Rf1 (6. ...Kf8 7. Rg7)
-7. h7+ Kh8
-8. Ke7 (8. f7 $2 Rxf7 $1 9. Rxf7 $10) Re1+ (8. ...Rxf6 9. Ra8+ $1) (8. ...Kxh7 9. f7 Kg7 10. Ke8)
-9. Kf7 $1 (9. Kf8 $2 Re8+ $1 10. Kf7 Rf8+ $10)  Rb1
-10. Ra8+ Kxh7
-11. Kf8 Kg6
-12. f7
+2. Kf6 Rb1
+(2. ...Rh1 3. Rg7+ Kf8 (3. ...Kh8 4. Re7 Rxh6+ 5. Kf7 Ra6 6. f6 Kh7 7. Kf8+ Kg6  8. f7 Kf6 9. Kg8 $1 {wins}) 4. Kg6 $1 Rg1+ 5. Kh7 Rf1 6. Ra7 Rg1 (6. ...Rxf5 7. Kg6 {wins}) 7. f6 Rg2 8. Rg7 Rf2 9. Kg6 {white will play h7 and Rg8, winning})
+(2. ...Rf1 3. Rg7+ Kh8 4. Re7 $1 Kg8 5. Re8+ Kh7 6. Ke6 Ra1 7. f6 Ra6+ 8. Kf5 Ra5+ 9. Re5 Ra1 10. f7 Rf1+ 11. Ke6 Kg6 12. Rg5 $3 Kxg5 13. h7 {wins})
+3. Re7 $1 Ra1
+4. Ke5 (4. h7 Kh8 5. Kf7 Ra5 $3 6. f6 Kxh7 7. Kf8+ Kg6 8. f7 Kf6 $1 $10) Re1+
+5. Kd6 Rd1+
+6. Ke6 Re1+
+7. Kd7 Rd1+ (7. ...Rf1 8. Re8+ Kh7 9. Ke6 Ra1 10. f6 Ra6+)
+8. Ke8 Rf1
+9. Re5 Kh7
+10. Kf7 $1 Kxh6
+11. Re6+ $1 (11. f6 $2 Ra1 $1 $10) Kh7
+12. f6 Ra1
+13. Kf8 Ra8+
+14. Re8
 1-0
