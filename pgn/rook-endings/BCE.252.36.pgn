@@ -1,0 +1,22 @@
+[FEN "8/5K1k/4R2P/5P2/8/8/8/r7 b - - 1 1"]
+[White ""]
+[Black ""]
+[Result "1-0"]
+
+1. ...Ra2
+(1. ...Ra7+ 2. Kf8 Ra8+ 3. Re8 Ra6 4. Re7+ Kh8 5. Re6 Ra8+ 6. Re8 Ra6 7. f6 $1 Rxf6+ 8. Ke7 {wins})
+(1. ...Ra8 2. Re8 (2. f6 $2 Kxh6 $1 $10) Ra7+ (2. ...Ra6 3. Re1 Ra7+ 4. Kf8 Kxh6 5. Re6+) (2. ...Ra6 3. Re1 Rb6 4. f6 Rb8 5. Re8) 3. Kf8 Kxh6 4. Re6+ $1 Kg5 5. f6 Kf5 6. Rb6 {wins})
+2. f6 $1 Ra8 (2. ...Kxh6 3. Kf8 $1 Kg6 4. f7+)
+3. Re8 Ra7+
+4. Ke6 $1 (4. Kf8 $2 Kg6 5. Kg8 Kxf6 6. h7 Rg7+ 7. Kh8 Ra7 $1) Ra6+
+5. Kf5 Ra5+
+6. Re5 Ra1
+7. f7 Rf1+
+8. Ke6 Kg6
+9. Rg5 $3 Kxg5
+10. h7 Re1+
+11. Kd7 Rd1+
+12. Ke8 Re1+
+13. Kf8 Rh1
+14. Kg7 {wins}
+1-0
