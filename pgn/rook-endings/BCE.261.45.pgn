@@ -1,0 +1,13 @@
+[FEN "1K6/1P1k4/1P6/8/8/r7/6R1/8 w - - 1 1"]
+[White ""]
+[Black ""]
+[Result "1-0"]
+
+{Duras, 1902.}
+1. Rd2+ Ke7
+2. Rd6 $3 (2. Rd5 Ra1 3. Kc7 Rc1 {the b6 pawn prevents white from building a bridge}) Rc3
+(2. ...Kxd6 3. Kc8 Rc3+ 4. Kd8)
+(2. ...Ra1 3. Kc7 Rc1+ 3. Rc6)
+3. Rc6 $1 Rxc6
+4. Ka7 {wins}
+1-0
