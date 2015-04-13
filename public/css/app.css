@@ -112,7 +112,7 @@ body {
 #GameBoard table, #GameBoard tbody, #GameBoard tr, #GameBoard td {
     display:block;
 }
-#GameBoard table {
+#GameBoard {
     width:100%;
 }
 #GameBoard td {
