@@ -38,10 +38,6 @@ body {
 .moveOn {
     font-weight:bold;
 }
-.whiteSquare, .blackSquare {
-    width: 45px;
-    height: 45px;
-}
 .whiteSquare, .highlightWhiteSquare {
     background-color:#dcdcdc;
 }
@@ -86,7 +82,7 @@ body {
 #button-bar {
     margin-top: 5px;
     margin-bottom:20px;
-    max-width: calc(45px * 8);
+    max-width: calc(100% * 8);
 }
 #GameText {
     text-decoration:none;
@@ -107,7 +103,25 @@ body {
     padding:0;
     margin:0;
 }
+
 .preview img {
     height: 100%;
     width: 100%;
+}
+
+#GameBoard table, #GameBoard tbody, #GameBoard tr, #GameBoard td {
+    display:block;
+}
+#GameBoard table {
+    width:100%;
+}
+#GameBoard td {
+    float:left;
+    width: calc(100%/8);
+    padding:0;
+    margin:0;
+}
+#GameBoard td img {
+    width: 100%;
+    height: 100%;
 }

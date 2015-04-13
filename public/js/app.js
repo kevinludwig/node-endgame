@@ -32,8 +32,11 @@ $(document).ready(function() {
     });
 
     var preview = $('.preview');
+    var board = $('#boardTable');
     $(window).resize(function() {
         preview.height(preview.width());
+        if (board) board.height(board.width());
     });
     preview.height(preview.width());
+    if (board) board.height(board.width());
 });
