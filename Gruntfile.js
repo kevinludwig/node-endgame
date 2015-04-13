@@ -58,11 +58,7 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.loadNpmTasks('grunt-mocha-istanbul');
-    grunt.loadNpmTasks('grunt-contrib-jshint');
-    grunt.loadNpmTasks('grunt-jscs');
-    grunt.loadNpmTasks('grunt-jsbeautifier');
+    require('load-grunt-tasks')(grunt);
 
     grunt.registerTask('default', ['clean', 'jshint', 'jsbeautifier', 'jscs', 'mocha_istanbul']);
 };
